@@ -11,7 +11,7 @@ Visualize in log scale the number of incidents for the given countries between 2
 ```
 ![Log ghaph](images/log.png)
 
-Visualize in log scale the number of incidents between 2020-03-01 and today
+Visualize in linear scale the number of incidents between 2020-03-01 and today
 ```bash
 > python covid19.py --file $CSV --countries Switzerland Greece --start_date 25-02-2020
 ```
