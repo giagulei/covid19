@@ -61,7 +61,6 @@ class VirusSeries:
 
         if end_date is None:
             end_date = self.series.index[-1]
-            print(end_date)
         self.series = self.series.loc[start_date:end_date]
 
     def plot(self):
